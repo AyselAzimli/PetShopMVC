@@ -1,0 +1,481 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PetShopMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PetShopMVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\background-img.png",
+      "PackagePath": "staticwebassets\\images\\background-img.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\banner-img.png",
+      "PackagePath": "staticwebassets\\images\\banner-img.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\banner-img2.png",
+      "PackagePath": "staticwebassets\\images\\banner-img2.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\banner-img3.png",
+      "PackagePath": "staticwebassets\\images\\banner-img3.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\banner-img4.png",
+      "PackagePath": "staticwebassets\\images\\banner-img4.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog-large.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-large.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog-lg1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-lg1.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog-lg2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-lg2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog-lg3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-lg3.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog-lg4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-lg4.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog1.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\blog3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog3.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\chocolat\\close.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\close.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\chocolat\\fullscreen.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\fullscreen.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\chocolat\\left.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\left.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\chocolat\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\chocolat\\loader.gif"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\chocolat\\right.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\right.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\insta1.jpg",
+      "PackagePath": "staticwebassets\\images\\insta1.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\insta2.jpg",
+      "PackagePath": "staticwebassets\\images\\insta2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\insta3.jpg",
+      "PackagePath": "staticwebassets\\images\\insta3.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\insta4.jpg",
+      "PackagePath": "staticwebassets\\images\\insta4.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\insta5.jpg",
+      "PackagePath": "staticwebassets\\images\\insta5.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\insta6.jpg",
+      "PackagePath": "staticwebassets\\images\\insta6.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item1.jpg",
+      "PackagePath": "staticwebassets\\images\\item1.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item10.jpg",
+      "PackagePath": "staticwebassets\\images\\item10.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item11.jpg",
+      "PackagePath": "staticwebassets\\images\\item11.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item12.jpg",
+      "PackagePath": "staticwebassets\\images\\item12.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item13.jpg",
+      "PackagePath": "staticwebassets\\images\\item13.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item14.jpg",
+      "PackagePath": "staticwebassets\\images\\item14.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item15.jpg",
+      "PackagePath": "staticwebassets\\images\\item15.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item16.jpg",
+      "PackagePath": "staticwebassets\\images\\item16.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item2.jpg",
+      "PackagePath": "staticwebassets\\images\\item2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item3.jpg",
+      "PackagePath": "staticwebassets\\images\\item3.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item4.jpg",
+      "PackagePath": "staticwebassets\\images\\item4.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item5.jpg",
+      "PackagePath": "staticwebassets\\images\\item5.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item6.jpg",
+      "PackagePath": "staticwebassets\\images\\item6.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item7.jpg",
+      "PackagePath": "staticwebassets\\images\\item7.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item8.jpg",
+      "PackagePath": "staticwebassets\\images\\item8.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\item9.jpg",
+      "PackagePath": "staticwebassets\\images\\item9.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\post-thumb-2.html",
+      "PackagePath": "staticwebassets\\images\\post-thumb-2.html"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\reviewer-1.jpg",
+      "PackagePath": "staticwebassets\\images\\reviewer-1.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\reviewer-2.jpg",
+      "PackagePath": "staticwebassets\\images\\reviewer-2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\images\\reviewer-3.jpg",
+      "PackagePath": "staticwebassets\\images\\reviewer-3.jpg"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\js\\basket.js",
+      "PackagePath": "staticwebassets\\js\\basket.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\js\\iconify-icon.min.js",
+      "PackagePath": "staticwebassets\\js\\iconify-icon.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\projects\\PetShopMVC\\PetShopMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PetShopMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PetShopMVC.props",
+      "PackagePath": "build\\PetShopMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PetShopMVC.props",
+      "PackagePath": "buildMultiTargeting\\PetShopMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PetShopMVC.props",
+      "PackagePath": "buildTransitive\\PetShopMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
