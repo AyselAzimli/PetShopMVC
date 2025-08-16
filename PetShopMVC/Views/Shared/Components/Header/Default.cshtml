@@ -5,7 +5,6 @@
     var sliders = model.Sliders;
 }
 
-
 <header>
     <div class="container py-2">
         <div class="row py-4 pb-0 pb-sm-4 align-items-center ">
@@ -72,7 +71,7 @@
                            aria-controls="offcanvasCart">
                             <iconify-icon icon="mdi:cart" class="fs-4 position-relative"></iconify-icon>
                             <span class="position-absolute translate-middle badge rounded-circle bg-primary pt-2">
-                                03
+                                
                             </span>
                         </a>
                     </li>
@@ -128,7 +127,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="wishlist.html" class="mx-3">
+                                <a asp-controller="WishList" asp-action="Index" class="mx-3">
                                     <iconify-icon icon="mdi:heart" class="fs-4"></iconify-icon>
                                 </a>
                             </li>
@@ -138,7 +137,7 @@
                                    aria-controls="offcanvasCart">
                                     <iconify-icon icon="mdi:cart" class="fs-4 position-relative"></iconify-icon>
                                     <span class="position-absolute translate-middle badge rounded-circle bg-primary pt-2">
-                                        @Model.Count
+                                        
 
                                     </span>
                                 </a>

@@ -18,5 +18,6 @@ namespace PetShopMVC.DataContext
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        public DbSet<WishList> WishLists { get; set; }
     }
 }

@@ -354,7 +354,6 @@
         const basketItems = document.getElementById("basketItems");
 
         addToBasket = function (id) {
-            event.preventDefault(); // stop link from navigating
             fetch(`https://localhost:7020/basket/addtobasket/${id}`)
                 .then(response => response.json())
                 .then(data => buildCart(data));
