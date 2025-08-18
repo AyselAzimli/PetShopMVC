@@ -1,5 +1,7 @@
-﻿@model WishListViewModel
-
+﻿@{
+    WishListViewModel model=Model;
+    var products = model.Products;
+}
     <section id="banner" class="py-3" style="background: #F9F3EC;">
         <div class="container">
             <div class="hero-content py-5 my-3">
@@ -13,24 +15,73 @@
         </div>
     </section>
 
-    <section id="Wishlist" class="py-5 my-5">
-        <div class="container">
-        <table class="table" >
-            <thead >
-                    <tr>
-                        <th scope="col" class="card-title text-uppercase">Product</th>
-                        <th scope="col" class="card-title text-uppercase">Unit Price</th>
-                        <th scope="col" class="card-title text-uppercase">Stock Status</th>
-                        <th scope="col" class="card-title text-uppercase"></th>
-                    </tr>
-                </thead>
-            <tbody id="WishListContainer">
 
+<section id="Wishlist" class="py-5 my-5">
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" class="card-title text-uppercase">Product</th>
+                    <th scope="col" class="card-title text-uppercase">Unit Price</th>
+                    <th scope="col" class="card-title text-uppercase">Stock Status</th>
+                    <th scope="col" class="card-title text-uppercase"></th>
+                </tr>
+            </thead>
+            <tbody id="WishListContainer">
+                @foreach(var item in products)
+                {
+                    <tr>
+                        <td class="py-4">
+                            <div class="cart-info d-flex flex-wrap align-items-center ">
+                                <div class="col-lg-3">
+                                    <div class="card-image">
+                                        <img src="images/@item.CoverImageUrl" alt="cloth" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="card-detail ps-3">
+                                        <h5 class="card-title">
+                                            <a href="#" class="text-decoration-none">@item.Name</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="py-4 align-middle">
+                            <div class="total-price">
+                                <span class="secondary-font fw-medium">$@item.Price</span>
+                            </div>
+                        </td>
+                        <td class="py-4 align-middle">
+                            <div class="total-price">
+                                <span class="secondary-font fw-medium">In Stoke</span>
+                            </div>
+                        </td>
+                        <td class="py-4 align-middle">
+                            <div class="d-flex align-items-center">
+                                <div class="me-4">
+                                    <button class="btn btn-dark p-3 text-uppercase fs-6 btn-rounded-none w-100" onclick="addToBasket(@item.Id)">
+                                        Add to
+                                        cart
+                                    </button>
+                                </div>
+                                <div class="cart-remove">
+                                    <a  onclick="removeFromWishList(@item.Id)">
+                                        <svg width="24" height="24">
+                                            <use xlink:href="#trash"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+               
 
             </tbody>
-            </table>
-        </div>
-    </section>
+        </table>
+    </div>
+</section>
 
     <section id="register" style="background: url('images/background-img.png') no-repeat;">
         <div class="container ">
@@ -167,3 +218,50 @@
         </div>
     </section>
 
+<script>
+    const basketItemsCount = document.getElementById("basketItemsCount");
+    const basketItemsTotal = document.getElementById("basketItemsTotal");
+    const basketItems = document.getElementById("basketItems");
+
+    addToBasket = function (id) {
+        fetch(`https://localhost:7020/basket/addtobasket/${id}`)
+            .then(response => response.json())
+            .then(data => buildCart(data));
+    }
+
+    removeFromBasket = function (id) {
+        fetch(`https://localhost:7020/basket/removeFromBasket/${id}`)
+            .then(response => response.json())
+            .then(data => buildCart(data));
+    }
+
+
+    function buildCart(data) {
+        basketItems.innerHTML = "";
+        basketItemsCount.innerHTML = data.count;
+        basketItemsTotal.innerHTML = `$${data.total}`;
+
+        for (let product of data.items) {
+            basketItems.innerHTML += `
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">${product.name}</h6>
+                                <small class="text-body-secondary">Brief description</small>
+                            </div>
+                            <span class="text-body-secondary">$${product.price}</span>
+                            <a href="#" class="product-close">
+                                <i class="fal fa-times" onclick="removeFromBasket(${product.id})">x</i>
+                            </a>
+                        </li>`;
+        }
+    }
+
+    function initBasket() {
+        fetch(`https://localhost:7020/basket/initBasket`)
+            .then(response => response.json())
+            .then(data => buildCart(data));
+    }
+    initBasket();
+
+
+</script>
