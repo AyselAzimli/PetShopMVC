@@ -1,0 +1,51 @@
+﻿@model List<Category>
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Categories</h4>
+                <a class="btn btn-primary" asp-controller="Category" asp-action="Create">
+                    Add
+                </a>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model ?? [])
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    <td>
+                                        <a class="btn btn-info" asp-controller="Category" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                                        <button class="btn btn-danger" onclick="deleteCategory(@item.Id, this)">Delete</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function deleteCategory(id, element) {
+        fetch(`/Admin/Category/Delete/${id}`, {
+            method: "POST"
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.isDeleted) {
+                    element.closest("tr").remove();
+                }
+            })
+            .catch(error => console.error("Error:", error));
+    }
+</script>

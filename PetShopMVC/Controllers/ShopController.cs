@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PetShopMVC.DataContext;
 using PetShopMVC.Models;
 
 namespace PetShopMVC.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class ShopController : Controller
     {
         private readonly AppDbContext _dbContext;

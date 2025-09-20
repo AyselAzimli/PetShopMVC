@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using PetShopMVC.DataContext;
 using PetShopMVC.Models;
 
 namespace PetShopMVC.Controllers
 {
+
     public class WishListController : Controller
     {
         private const string WISHLIST_KEY = "wishList";
@@ -74,6 +76,7 @@ namespace PetShopMVC.Controllers
             return Json(new { Products = products });
         }
 
+        
         [HttpGet]
         public IActionResult InitWishList()
         {

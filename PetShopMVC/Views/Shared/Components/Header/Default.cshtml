@@ -122,10 +122,25 @@
                     <div class="d-none d-lg-flex align-items-end">
                         <ul class="d-flex justify-content-end list-unstyled m-0">
                             <li>
-                                <a href="account.html" class="mx-3">
+                                <a asp-controller="Account" asp-action="Register" class="mx-3">
                                     <iconify-icon icon="healthicons:person" class="fs-4"></iconify-icon>
                                 </a>
                             </li>
+                            @if (User.Identity!.IsAuthenticated)
+                            {
+                                <span>@User.Identity.Name</span>
+                                <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-link p-0 m-0 align-baseline text-danger">
+                                        Log Out
+                                    </button>
+                                </form>
+                                <a asp-controller="Account" asp-action="ChangePassword" class="text-primary  fw-bold"> Change Password</a>
+
+                            }
+                            else
+                            {
+                                <a asp-controller="Account" asp-action="Login" >Login</a>
+                            }
                             <li>
                                 <a asp-controller="WishList" asp-action="Index" class="mx-3">
                                     <iconify-icon icon="mdi:heart" class="fs-4"></iconify-icon>
